@@ -66,7 +66,7 @@ This repo will keep track of my progress, mistakes, and successes along the way.
 ## ⭐ Support & Connect  
 
 If you like my journey, consider giving this repo a ⭐ and follow me for updates!  
-Let’s connect: [LinkedIn](#https://www.linkedin.com/in/soham-pankhade/) 
+Let’s connect: [LinkedIn](https://www.linkedin.com/in/soham-pankhade/) 
 
 ---
 
