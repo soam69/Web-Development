@@ -49,10 +49,10 @@ Here, I’ll be learning, experimenting, and building projects as I grow from th
 
 ## 📚 Resources I Use  
 
-- [MDN Web Docs](https://developer.mozilla.org/)  
+- [Sigma Web Development Course](https://www.youtube.com/playlist?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w)  
 - [freeCodeCamp](https://www.freecodecamp.org/)  
 - [W3Schools](https://www.w3schools.com/)  
-- [The Odin Project](https://www.theodinproject.com/)  
+- [Geeks for Geeks](https://www.geeksforgeeks.org/web-tech/web-technology/)  
 
 ---
 
@@ -66,7 +66,7 @@ This repo will keep track of my progress, mistakes, and successes along the way.
 ## ⭐ Support & Connect  
 
 If you like my journey, consider giving this repo a ⭐ and follow me for updates!  
-Let’s connect: [LinkedIn](#) | [Twitter](#) | [Portfolio](#)  
+Let’s connect: [LinkedIn](#https://www.linkedin.com/in/soham-pankhade/) 
 
 ---
 
