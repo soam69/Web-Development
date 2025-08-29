@@ -1,0 +1,31 @@
+h1{
+    color: black;
+    text-align: center;
+}
+.red{                   /*Specificity = 10*/
+    color: red;
+}
+h1.green{               /*Specificity - 1 + 10 = 11(winner)*/
+    color: green;
+}
+.blue{                  /*Specificity = 10*/
+    color: blue;
+}
+dt{
+    font-weight:bolder;
+}
+dl{
+    margin-left: 50px;
+}
+.spec{
+    font-weight: bolder; 
+    font-style: italic;
+    margin-left: 50px;
+}
+[cute="yeah"]{
+    color:deeppink;
+}
+
+.inline{
+    color: chartreuse !important;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity & Cascade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="red green blue">Welcome to Rumeso International</h1>
+    <h2>The Cascade Algorithm</h2>
+    <dl>
+        <dt>Position and order of appearance</dt>
+        <dd>the order in which your CSS rules appear</dd>
+        <dt>Specificity</dt>
+        <dd>an algorithm that determines which CSS selector has the strongest match</dd>
+        <dt>Origin</dt>
+        <dd>the order in which CSS appears and where it comes from, whether that is a browser style, CSS from a browser
+            extension, or your authored CSS</dd>
+        <dt>Importance</dt>
+        <dd>some CSS rules are weighted more heavily than others, especially with the !important rule type</dd>
+    </dl>
+    <h2>Order of Specificity</h2>
+    <p class="spec">Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector</p>
+    <h3 style="color:cadetblue" class="inline">This line has inline CSS and it is still goint to be overwritten.</h3>
+    <h3 cute="yeah">This is a attribute selector</h3>
+    <h3>Specificity Calculation</h3>
+    <ul>
+        <li>Universal Selector: 0</li>
+        <li>Element selectors and pseudo-elements: 1</li>
+        <li>Class selectors, attribute selectors, and pseudo-classes: 10</li>
+        <li>ID selectors: 100</li>
+        <li>Inline styles: 1000</li>
+    </ul>
+</body>
+
+</html>
