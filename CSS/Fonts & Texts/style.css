@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+h1 {
+  font-family: "Asimovian", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  word-spacing: 20px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+h2{
+    text-decoration: underline;
+    text-decoration-color:brown ;
+    text-decoration-style: wavy;
+}
+.lorem{
+    border: 2px solid black;
+    width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;    
+}
+
+.one{
+    background-color: aquamarine;
+}
+.two{
+    background-color: #0bee0b;
+}
+.three{
+    background-color: rgb(10, 169, 50);
+}
+.four{
+    background-color: rgba(10, 269, 50, 0.7);
+}
+.five{
+    background-color: hsl(156, 77%, 57%);
+}
