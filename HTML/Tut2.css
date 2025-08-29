@@ -1,0 +1,12 @@
+td{
+    border: 2px solid black;
+}
+th{
+    border: 3px solid black;
+}
+table{
+    border: 5px solid black;
+}
+dt{
+    font-weight: bold;
+}

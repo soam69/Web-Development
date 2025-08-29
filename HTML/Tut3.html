@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Apply for Rumeso International</h1>
+    <form action="post">
+        <div>
+            <label for="name">Name : </label>
+            <input type="text" name="username" id="name" placeholder="Enter your name">
+        </div>
+        <div>
+            <label for="age">Age : </label>
+            <input type="number" name="age" id="age" placeholder="Enter your age">
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="About">Tell about yourself :</label>
+            <br>
+            <textarea name="About" id="About" placeholder="About yourself" rows="4" cols="40"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="human" id="captcha" value="yes">
+            <label for="captcha">Click to verify that you are not robot </label>
+        </div>
+        <div>
+            <label for="owner">Select a Interviewer : </label>
+            <select name="owner" id="owner">
+                <option value="soham">Soham</option>
+                <option value="rushi">Rushikesh</option>
+                <option value="ramu">Rameshwar</option>
+            </select>
+        </div>
+        </form>
+</body>
+</html>  
