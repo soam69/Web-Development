@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    padding: 20px;
+}
+.box{
+    background-color: blanchedalmond;
+    display: inline;
+    width: 25vw;
+}
+.box2{
+    background-color: blue;
+    display: inline-block;
+    width: 25vw;
+    
+}
+.span1{
+    background-color: cadetblue;
+}
+.span2{
+    background-color: chocolate;
+}
+
+.flex{
+    margin: 10px;
+    justify-content: center;
+    background-color: chocolate;
+    display: flex;
+    width: 25vw;
+}
+.inflex{
+    background-color: crimson;
+    display: inline-flex;
+    margin: 10px;
+}
