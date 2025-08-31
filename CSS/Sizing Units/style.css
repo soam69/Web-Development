@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    box-sizing: border-box;
+    background-color: aquamarine;
+    width: 50vw;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+    height: 10vh;
+}
+
+.container{
+    box-sizing: border-box;
+    background-color: aquamarine;
+    width: 50vw;
+    border: 2px solid black;
+    margin: 23px auto;
+    text-align: center;
+    height: 80vh;
+}
+
+.boxer{
+    box-sizing: border-box;
+    background-color: aquamarine;
+    border: 2px solid black;
+    width: 50vw;
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+}
+
+.boxer p{
+    font-size: 0.5em;    /*Multiplies the size of parent with given value*/
+}
+
+.boxer a{
+    font-size: 2rem;     /*Multiplies the size of root element with given value*/
+}
+
+.mycont{
+    /* Vmin = minimum of device's height or width */
+    /* Vmax = maximum of device's height or width */
+    /* Vmin for laptop in height */
+    /* Vmin for mobile phone is width */
+    box-sizing: border-box;
+    color: red;
+    background-color: yellow;
+    margin : 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    width: 50vmax;
+    padding: 7px;
+    
+}
+
+.minheight{
+    box-sizing: border-box;
+    color: black;
+    background-color: bisque;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    width: 50vw;
+    min-height: 30vh;
+}
