@@ -1,0 +1,10 @@
+nav ul li{
+    list-style: disc;
+    background-color: aquamarine;
+    list-style-position: inside;
+    border: 2px solid black;
+    /* list-style-image: url("Rumeso.png"); */
+    padding: 10px;
+    margin: 10px;
+    width: 20vw;;
+}
