@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color:rgb(0, 179, 255);
+    --secColor:rgb(142, 210, 255);
+    --defpad: 30px;
+}
+.first{
+    background-color: var(--color);
+}
+.second{
+    background-color: var(--secColor);
+}
+.second h4{
+    --secColor:rgb(255, 204, 0);
+    background-color: var(--secColor);
+    padding: var(--defpad);
+}
+.third{
+    background-color: var(--mohan,yellow);
+}
